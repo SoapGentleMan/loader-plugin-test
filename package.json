@@ -1,0 +1,16 @@
+{
+  "name": "loader-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ww",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config webpack.config.js --inline --progress"
+  },
+  "devDependencies": {
+    "loader-utils": "^1.2.3",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
